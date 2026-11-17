@@ -1,0 +1,48 @@
+{
+  "privateKey": "Qd2XliU6/I6YD3OELdeBQ57z6Q9/OHGBTjCNVLB8s/1KpvoU6aiuuBTgQ72IW/yA0aYYnfbCX31zhJKsPnRE5Q==",
+  "seed": "Qd2XliU6/I6YD3OELdeBQ57z6Q9/OHGBTjCNVLB8s/0=",
+  "publicKey": "Sqb6FOmorrgU4EO9iFv8gNGmGJ32wl99c4SSrD50ROU=",
+  "keySource": "vendor-provided sample key (sampleSignKey in the vendor docs); never a real key",
+  "primitive": [
+    {
+      "name": "widget signature example, guide 8.4.3",
+      "source": "vendor-provided",
+      "message": "1000000__56__0x0000000000000000000000000000000000000000_rmtbPVEKwLzz27Qs51Jio_0x55d398326f99059ff775485246999027b3197955",
+      "signature": "+EEox+pWc3dC854Av3eIzLbGthud0p2/xrosE9tcOHvLEji8uajyJzDwV95IFClhmCnCqPXtjQsZmYS0jrtgBw=="
+    }
+  ],
+  "requests": [
+    {
+      "name": "no query, no body",
+      "source": "derived",
+      "query": "",
+      "body": "",
+      "timestamp": 1700000000,
+      "signature": "ocI1kSO/TBc5snGqxnkW24jSpkLlywtBwxtPhK+cDhHGbqyFXyGUzP2debqS1xHTdgKmK3JCkFikv22Fn+tEDw=="
+    },
+    {
+      "name": "one query parameter",
+      "source": "derived",
+      "query": "token=USDT",
+      "body": "",
+      "timestamp": 1700000000,
+      "signature": "M+jfbkCgofIz5kOK0qOTksNtzRK3TGD6E+OPgmwr4UhY5Brs4SVoYvF7uiXRKR0Bcn84Uxt37lTM/ZCN0AN/Cw=="
+    },
+    {
+      "name": "sorted query",
+      "source": "derived",
+      "query": "change_type=1&page=1&page_size=20&token=USDT",
+      "body": "",
+      "timestamp": 1700000000,
+      "signature": "5Q9FhKAiEZi+NICDydsH2KN6Gx3FTehQyFgi8Z7O//N3OWt8bRFUouvEv29WWrA/vq5eratUlMTYKEVjajAOCg=="
+    },
+    {
+      "name": "json body",
+      "source": "derived",
+      "query": "",
+      "body": "{\"webhook_url\":\"https://yourapp.com/api/webhooks/fund-balance\"}",
+      "timestamp": 1700000000,
+      "signature": "Wc8VkDcbtwtxeGGb1Jtwev2cwbjaOMBiliyNUtXulYCXS2axuOhQXVjng8XvIRDprhFxKqQ+7gP8wBKIl047Dg=="
+    }
+  ]
+}
