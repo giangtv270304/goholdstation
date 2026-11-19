@@ -2,6 +2,8 @@
 
 Go client for the Holdstation Pay partner API.
 
+Unofficial client, not affiliated with or endorsed by Holdstation.
+
 ## Install
 
 ```bash
